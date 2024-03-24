@@ -1,0 +1,4 @@
+dependencies:
+- query: "#container/default"
+  source: output/container.sif
+  destination: container.sif
