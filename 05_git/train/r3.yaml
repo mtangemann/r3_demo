@@ -1,0 +1,9 @@
+dependencies:
+- query: "#container/default"
+  source: output/container.sif
+  destination: container.sif
+- query: "#dataset/mnist"
+  source: output
+  destination: data
+- repository: git@github.com:mtangemann/r3_demo_image_grid.git
+  destination: image_grid
