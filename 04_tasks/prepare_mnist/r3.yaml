@@ -1,4 +1,5 @@
 dependencies:
-- query: "#container/default"
+- find_latest:
+    tags: container/default
   source: output/container.sif
   destination: container.sif
